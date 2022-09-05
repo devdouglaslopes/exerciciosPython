@@ -1,0 +1,5 @@
+nome = input('Digite seu nome:')
+sobrenome = input('Digite seu sobrenome:')
+    #O tipo input sempre retorna uma string, a não ser que voce defina o tipo antes Ex: int(input('Digite um número'))
+print('Prazer em te conhecer,',nome,'!')
+print('Prazer em te conhecer, Sr(a). {}!'.format(sobrenome))
