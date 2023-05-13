@@ -1,0 +1,8 @@
+#Conversão de medidas (metros)
+m = float(input('Digite um valor em metros:'))
+print('Este valor corresponde á {:.0f} km.'.format(m/1000))
+print('Este valor corresponde á {:.0f} hm.'.format(m/100))
+print('Este valor corresponde á {:.0f} dam.'.format(m/10))
+print('Este valor corresponde á {:.0f} dm.'.format(m*10))
+print('Este valor corresponde á {:.0f} cm.'.format(m*100))
+print('Este valor corresponde á {:.0f} mm.'.format(m*1000))
